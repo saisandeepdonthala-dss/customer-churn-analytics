@@ -8,10 +8,10 @@ For this, I used a European bank customer dataset containing 10,000 records. I e
 
 ## Dataset Information
 
-- Dataset: European_Bank.csv
-- Total customer records: 10,000
-- Original columns: 14
-- Dataset source: Unified Mentor
+- **Dataset:** European_Bank.csv
+- **Total customer records:** 10,000
+- **Original columns:** 14
+- **Dataset source:** Unified Mentor
 
 **Note:** The original dataset is not included in this public GitHub repository.
 
@@ -69,6 +69,10 @@ I created different graphs to understand customer churn patterns more clearly.
 
 ![Correlation Heatmap](reports/graphs/correlation_churn.png)
 
+## Streamlit Dashboard
+
+I also created a Streamlit dashboard to explore customer churn interactively. It includes customer summary figures, country-wise churn, age and tenure comparisons, and customer filters.
+
 ## Tools I Used
 
 - Python
@@ -76,15 +80,40 @@ I created different graphs to understand customer churn patterns more clearly.
 - NumPy
 - Matplotlib
 - Seaborn
+- Streamlit
 - VS Code
 
 ## Project Files
 
-- `data/` – The original dataset was provided by Unified Mentor and is not included in this public repository.
-- `notebooks/` – Contains the Python analysis code.
-- `reports/graphs/` – Contains the graphs created during the analysis.
-- `reports/EDA_Summary.md` – Contains the analysis results and findings.
-- `requirements.txt` – Contains the Python libraries required for this project.
+- `app/streamlit_app.py` – Streamlit dashboard code.
+- `notebooks/01_EDA_Customer_Churn.py` – Python code used for data analysis.
+- `data/` – Place the original `European_Bank.csv` dataset here. It is not included in this repository.
+- `reports/graphs/` – Graphs created during the analysis.
+- `reports/EDA_Summary.md` – Summary of the EDA results.
+- `reports/Research_Paper.md` – Detailed project research paper.
+- `reports/Executive_Summary.md` – Short summary of the project.
+- `requirements.txt` – Required Python libraries.
+
+## How to Run the Dashboard
+
+1. Download or clone this repository.
+2. Place the original `European_Bank.csv` file inside the `data` folder.
+3. Open the project folder in VS Code.
+4. Open the terminal and install the required libraries:
+
+   ```bash
+   python -m pip install -r requirements.txt
+   ```
+
+5. Start the Streamlit dashboard:
+
+   ```bash
+   python -m streamlit run app/streamlit_app.py
+   ```
+
+6. Open the local URL displayed in the terminal.
+
+**Note:** You need the original dataset from the internship source to run the analysis and dashboard.
 
 ## What I Learned
 
