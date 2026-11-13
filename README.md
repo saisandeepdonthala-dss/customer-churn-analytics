@@ -52,7 +52,7 @@ During the analysis, I found that:
 
 ## Project Files
 
-- `data/` – Contains the customer dataset.
+- `data/` – The original dataset was provided by Unified Mentor and is not included in this public repository.
 - `notebooks/` – Contains the Python analysis code.
 - `reports/graphs/` – Contains the graphs created during the analysis.
 - `reports/EDA_Summary.md` – Contains the analysis results and findings.
