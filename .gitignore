@@ -1,0 +1,11 @@
+.vscode/
+__pycache__/
+*.pyc
+venv/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Original internship dataset
+data/European_Bank.csv
