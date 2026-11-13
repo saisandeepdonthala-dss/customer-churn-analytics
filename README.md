@@ -11,6 +11,9 @@ For this, I used a European bank customer dataset containing 10,000 records. I e
 - Dataset: European_Bank.csv
 - Total customer records: 10,000
 - Original columns: 14
+- Dataset source: Unified Mentor
+
+**Note:** The original dataset is not included in this public GitHub repository.
 
 ## What I Did in This Project
 
@@ -19,6 +22,7 @@ First, I loaded the dataset using Python and checked the available columns and r
 After that, I created different customer groups based on age, credit score, account balance and banking experience.
 
 I then compared customer churn based on:
+
 - Age and gender
 - Country
 - Customer activity
@@ -41,6 +45,30 @@ During the analysis, I found that:
 - Customers with two bank products had a much lower churn rate than customers with one product.
 - Age showed a stronger relationship with churn than most of the other numerical columns.
 
+## Graphs and Visualizations
+
+I created different graphs to understand customer churn patterns more clearly.
+
+### 1. Overall Customer Churn
+
+![Customer Churn Distribution](reports/graphs/churn_distribution.png)
+
+### 2. Churn by Age Group
+
+![Age Group Churn](reports/graphs/age_group_churn.png)
+
+### 3. Churn by Geography
+
+![Geography Churn](reports/graphs/geography_churn.png)
+
+### 4. Churn by Customer Activity
+
+![Activity Churn](reports/graphs/activity_churn.png)
+
+### 5. Correlation Heatmap
+
+![Correlation Heatmap](reports/graphs/correlation_churn.png)
+
 ## Tools I Used
 
 - Python
@@ -56,6 +84,7 @@ During the analysis, I found that:
 - `notebooks/` – Contains the Python analysis code.
 - `reports/graphs/` – Contains the graphs created during the analysis.
 - `reports/EDA_Summary.md` – Contains the analysis results and findings.
+- `requirements.txt` – Contains the Python libraries required for this project.
 
 ## What I Learned
 
